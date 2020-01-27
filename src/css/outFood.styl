@@ -1,0 +1,375 @@
+.out_food
+    max-width: 359px
+    margin: 0 auto 
+    background-color: white
+    position: fixed
+    top:0;
+    left: 0;
+    right:0;
+    bottom: 0;
+    overflow: auto
+    .back
+        width: 2rem
+        height 2.5rem
+        position: fixed
+        top: 0
+        z-index 2
+        img 
+            width: 1.5rem
+            margin-top: 0.5rem
+    .top
+        width: 359px
+        height 4rem 
+        position: fixed
+        top: 0
+        background-image:linear-gradient(to right,#f1d804,#f1a028)
+        line-height: 2.5rem
+    .bottom
+        width: 359px  
+        height: 60000px    
+        border-radius: 0.9rem 0.9rem 0 0
+        position: absolute
+        left 0
+        top: 2.5rem
+        .bottom_top
+            width: 359px
+            height: 2.5rem
+            background-color: white
+            border-radius: 0.9rem 0.9rem 0 0
+            position: absolute
+            right: 0 
+            .bottom_top_one
+                width: 359px
+                height: 2.5rem
+                background-color: white
+                border-radius: 0.9rem 0.9rem 0 0
+                position: absolute
+                right: 0 
+                img 
+                    width: 1rem
+                    position: absolute
+                    left 1.2rem
+                    top: 0.68rem
+                    z-index 1
+                input 
+                    background-color: #ece7df
+                    width: calc(100% - 1.6rem)
+                    line-height: 1.3rem
+                    border 0
+                    border-radius: 0.5rem
+                    outline-style: none              
+                    font-size: 0.7rem
+                    position: absolute
+                    right 0.8rem
+                    top: 0.5rem 
+        .bottom_middle
+            width: 359px
+            height: 22rem
+            background-image: linear-gradient(to bottom,white,rgba(245, 245, 245, 1)) 
+            position: absolute
+            right 0px
+            top: 2.5rem 
+            .bottom_middle_top
+                width: 339px
+                height: 15rem  
+                margin: 0 auto 
+                background-color: white
+                border-radius: 10px
+                .big_class
+                    height: 6rem 
+                    display: flex
+                    flex-flow: row nowrap
+                    justify-content: space-between
+                    div:first-child
+                        span
+                            left 1.2rem    
+                    div     
+                        width: 4rem
+                        height: 6rem
+                        position: relative  
+                        span
+                            position absolute
+                            left 0.5rem
+                            bottom 0.5rem
+                            font-size: 0.7rem
+                        img 
+                            width: 3rem
+                            height: 3rem
+                            margin-top: 0.8rem               
+                .small_class
+                    height: 9rem 
+                    display: flex
+                    flex-flow: row wrap
+                    justify-content: space-between
+                    div 
+                        width: 4rem
+                        height: 4rem
+                        position: relative 
+                        span
+                            position absolute
+                            left 0.5rem
+                            bottom 0.1rem
+                            font-size: 0.7rem
+                        img 
+                            width: 1.8rem
+                            height: 1.8rem
+                            margin-top: 0.5rem
+            .bottom_middle_bottom
+                width: 339px
+                height: 6rem
+                background-color: yellow
+                margin: 5px auto 
+                border-radius: 10px   
+                position: relative 
+                img 
+                    width: 339px
+                    height: 6rem
+                    border-radius: 10px 
+                div 
+                    width: 0.2rem
+                    height: 0.2rem
+                    background-color: #e4e4e4 
+                    position: absolute 
+                    bottom: 0.7rem   
+                    border-radius: 50%
+                &>div:nth-of-type(1) 
+                    left 8.59375rem          
+                &>div:nth-of-type(2) 
+                    left 9.59375rem 
+                &>div:nth-of-type(3) 
+                    left 10.59375rem 
+                &>div:nth-of-type(4) 
+                    left 11.59375rem 
+                &>div:nth-of-type(5) 
+                    left 12.59375rem 
+                .active
+                    width: 0.6rem   
+        .bottom_bottom
+            width: 359px 
+            background-color:rgba(245, 245, 245, 1)
+            position: absolute
+            right 0px
+            top: 24.3rem 
+            .bottom_bottom_top
+                width: 349px
+                height: 13rem
+                background-color: #d0d0d0
+                display: flex
+                flex-flow: row wrap
+                justify-content: space-between
+                margin: 0 auto 
+                border-radius: 0.5rem  
+                div 
+                    background-color: white
+                    width: 174px
+                    height 13rem
+                    border-radius: 0.5rem
+                    position: relative
+                    .i1,.i2,.i3,.i4,.i5
+                        width: 150px
+                        border-radius: 0.5rem
+                        position: absolute 
+                        left 0.75rem
+                    .i1      
+                        height: 4rem 
+                        top: 2.6rem                      
+                    .i2
+                        height: 3rem 
+                        top: 9.6rem
+                    .i3
+                        height: 4rem 
+                        top: 2.6rem              
+                    .i4
+                        width: 4.65625rem
+                        height: 3rem
+                        top: 9.6rem  
+                    .i5
+                        width: 4.65625rem
+                        height: 3rem
+                        left 5.59375rem
+                        top: 9.6rem 
+                    .s1,.s3,.s5,.s7,.s9
+                        font-size: 14px
+                        font-weight: 700
+                        position absolute
+                        left 0.75rem
+                    .s4,.s6,.s8,.s10
+                        font-size: 12px
+                        font-weight: 300
+                        position absolute
+                        left 0.75rem 
+                    .s1
+                        top: 0.2rem
+                    .s2
+                        font-size: 12px
+                        font-weight: 200
+                        color: red   
+                        position absolute
+                        left 0.75rem 
+                        top: 1.5rem
+                    .hours,.minutes,.seconds
+                        width 1rem
+                        height: 1rem
+                        border-radius: 0
+                        background-color: red
+                        color: white
+                        font-size: 12px
+                        line-height: 1rem
+                        position absolute
+                        top 1.4rem
+                    .maohao1,.maohao2,.maohao3,.maohao4
+                        width 0.18rem
+                        height: 0.18rem
+                        background-color: red
+                        position absolute
+                        border-radius: 50%
+                    .maohao1
+                        left 6.215rem
+                        top 1.6rem
+                    .maohao2
+                        left 6.215rem  
+                        top 2rem 
+                    .maohao3
+                        left 7.715rem  
+                        top 1.6rem
+                    .maohao4
+                        left 7.715rem  
+                        top 2rem               
+                    .hours
+                        left 5rem
+                    .minutes
+                        left 6.5rem
+                    .seconds
+                        left 8rem            
+                    .s3
+                        top: 7rem
+                    .s4
+                        top: 8.3rem
+                    .s5
+                        top: 0.2rem
+                    .s6
+                        top: 1.5rem
+                    .s7
+                        top: 7rem
+                    .s8
+                        top: 8.3rem
+                    .s9
+                        top: 7rem
+                        left 5.59375rem 
+                    .s10                        
+                        top: 8.3rem
+                        left 5.59375rem
+            .bottom_bottom_bottom
+                width: 349px                
+                background-color: rgba(245, 245, 245, 1)
+                margin: 0 auto
+                .main_top
+                    position relative
+                    .title
+                        height: 50px
+                        line-height: 50px
+                        text-align: left 
+                        font-weight: 700
+                        z-index 1
+                    .search
+                        height: 30px
+                        font-size: 12px
+                        font-weight: 400
+                        display: flex
+                        z-index 1
+                        justify-content: space-between 
+                        &>div:nth-of-type(1)
+                            font-weight: 800
+                        &>div 
+                            width: 80px
+                            height: 20px
+                            line-height: 20px
+                            display: flex
+                            justify-content: center   
+                            position relative   
+                            .word
+                                height: 20px                   
+                                display: inline
+                            .img
+                                width: 20px
+                                height: 20px
+                                display: inline
+                                padding-top:2px 
+                                img 
+                                    width: 13px
+                            .sudu
+                                width: 18px        
+                                height: 18px
+                                border-radius: 50%
+                                background-color: #9a9797
+                                color: white
+                                position absolute
+                                left 45px 
+                                top 2px
+                                font-size: 12px
+                                transform: scale(0.8)
+                            .all
+                                width: 18px        
+                                height: 18px
+                                border-radius: 50%
+                                background-color: #9a9797
+                                color: white
+                                position absolute
+                                left 55px 
+                                top 2px
+                                font-size: 12px
+                                transform: scale(0.8)    
+                            
+                    .comp
+                        width: 359px
+                        position: absolute 
+                        left 0 
+                        z-index 2
+                    .black 
+                        position fixed
+                        width 349px
+                        height: 700px
+                        top 120px
+                        left 12.5px 
+                        background-color: black
+                        opacity: 0.4
+                        z-index 1
+                    .car
+                        width: 45px
+                        height: 45px
+                        position fixed
+                        right 20px
+                        top 680px  
+                        border-radius: 50%
+                        background-color: white 
+                        box-shadow 1px 1px 4px black                    
+                        img 
+                            width 25px
+                            position absolute
+                            left 50%
+                            top 50%
+                            transform translate(-50%,-50%)
+                            
+
+                                      
+                                   
+                                    
+
+
+
+
+
+
+
+
+
+
+
+                          
+
+
+                        
+                
+           
+            
+            
